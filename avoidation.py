@@ -70,7 +70,7 @@ class Jet(GameObject):
 
 class Game:
     def __init__(self):
-        self.jet = Jet(200, 200)
+        self.jet = Jet((200, 200))
         self.bullets = []
         self.width = 640
         self.height = 480
@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
     clock = pygame.time.Clock()
     
-    jet = Jet(200, 200)
+    jet = Jet((200, 200))
     game = Game()
     while True:
         for event in pygame.event.get():
