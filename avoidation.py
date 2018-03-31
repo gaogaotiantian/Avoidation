@@ -136,3 +136,4 @@ if __name__ == "__main__":
 
             time_passed = clock.tick(30)
             pygame.display.update()
+            print("game finish")
